@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>石庭安 臨床心理師 · 電子名片</title>
+<meta name="description" content="石庭安 臨床心理師 · 神經心理治療。一鍵撥號、加 LINE、存入通訊錄。">
+<meta property="og:title" content="石庭安 臨床心理師 · 神經心理治療">
+<meta property="og:description" content="把很難懂的大腦與心理科學，變成你和孩子當下就用得上的方法。">
+<style>
+:root{
+  --cream:#F7F2E8; --card:#FFFFFF; --ink:#2B3A3A; --muted:#6E7A76;
+  --teal:#2B8A8A; --teal-d:#1E6A6A; --teal-soft:#E5F0EE;
+  --orange:#E7883F; --orange-d:#D3712A;
+  --grad:linear-gradient(135deg,#2B8A8A 0%,#3AA0A0 42%,#E7883F 100%);
+  --line:#E7DECB;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Microsoft JhengHei","PingFang TC","Noto Sans TC",sans-serif; color:var(--ink);
+     background:radial-gradient(130% 100% at 50% 0%,#EEE5D3,#F7F2E8 60%); min-height:100vh;
+     display:flex; align-items:center; justify-content:center; padding:24px 16px; -webkit-font-smoothing:antialiased}
+.card{width:100%; max-width:420px; background:var(--card); border-radius:26px; overflow:hidden;
+      box-shadow:0 24px 60px rgba(43,58,58,.20); position:relative}
+.top{position:relative; background:var(--grad); height:150px}
+.top .logo{position:absolute; top:16px; left:18px; display:flex; align-items:center; gap:9px; color:#fff; font-weight:700; font-size:14px}
+.top .logo img{width:30px; height:30px; background:#fff; border-radius:8px; padding:3px}
+.avatar{position:absolute; left:50%; bottom:-52px; transform:translateX(-50%);
+        width:132px; height:132px; border-radius:50%; border:5px solid #fff; object-fit:cover; object-position:center 18%;
+        box-shadow:0 10px 26px rgba(0,0,0,.18)}
+.body{padding:66px 26px 26px; text-align:center}
+.name{font-size:32px; font-weight:800; letter-spacing:-.01em}
+.name .en{display:block; font-size:15px; color:var(--muted); font-weight:500; margin-top:4px; letter-spacing:.04em}
+.role{margin-top:10px; font-size:17px; font-weight:700; color:var(--teal-d)}
+.approach{display:inline-block; margin-top:14px; padding:7px 18px; border-radius:999px; background:var(--grad);
+          color:#fff; font-size:14px; font-weight:700; box-shadow:0 5px 14px rgba(43,138,138,.28)}
+.tag{margin-top:16px; font-size:15.5px; color:var(--ink); line-height:1.6; font-weight:500}
+.lic{margin-top:12px; font-size:13px; color:var(--muted)}
+.actions{margin-top:22px; display:grid; gap:11px}
+.act{display:flex; align-items:center; justify-content:center; gap:10px; padding:14px; border-radius:14px;
+     font-size:16px; font-weight:700; text-decoration:none; transition:transform .12s, box-shadow .2s}
+.act:active{transform:scale(.98)}
+.act .i{font-size:19px}
+.act.line{background:#06C755; color:#fff; box-shadow:0 6px 16px rgba(6,199,85,.28)}
+.act.call{background:var(--teal-d); color:#fff; box-shadow:0 6px 16px rgba(30,106,106,.26)}
+.act.mail{background:#fff; color:var(--teal-d); border:1.5px solid var(--teal)}
+.row2{display:grid; grid-template-columns:1fr 1fr; gap:11px}
+.act.save{background:#FBEBDC; color:var(--orange-d)}
+.act.site{background:var(--ink); color:#fff}
+.qr{margin-top:22px; padding-top:20px; border-top:1px solid var(--line)}
+.qr img{width:150px; height:150px; margin:0 auto; display:block}
+.qr .c{margin-top:8px; font-size:13px; color:var(--muted); font-weight:600}
+.foot{margin-top:20px; font-size:12px; color:var(--muted)}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="top">
+      <div class="logo"><img src="assets/logo.png" alt="logo">石庭安 臨床心理所</div>
+      <img class="avatar" src="assets/portrait_white.jpg" alt="石庭安 臨床心理師">
+    </div>
+    <div class="body">
+      <div class="name">石庭安<span class="en">Shih Ting-An · Clinical Psychologist</span></div>
+      <div class="role">臨床心理師</div>
+      <div class="approach">神經心理治療 Neuropsychotherapy</div>
+      <div class="tag">把很難懂的大腦與心理科學，<br>變成你和孩子當下就用得上的方法。</div>
+      <div class="lic">心理字第 002960 號 · 高雄 · BNI 富禮分會</div>
+
+      <div class="actions">
+        <a class="act line" href="https://line.me/R/ti/p/%40762wposx" target="_blank" rel="noopener"><span class="i">💬</span>加我的 LINE</a>
+        <a class="act call" href="tel:0921579140"><span class="i">📞</span>撥打電話 0921-579-140</a>
+        <a class="act mail" href="mailto:annei.clinicalpsy@gmail.com"><span class="i">✉️</span>寄 Email 給我</a>
+        <div class="row2">
+          <a class="act save" href="assets/shih-tingan.vcf" download><span class="i">📇</span>存入通訊錄</a>
+          <a class="act site" href="me/"><span class="i">🧠</span>深入認識我</a>
+        </div>
+      </div>
+
+      <div class="qr">
+        <img src="assets/qr.png" alt="LINE QR">
+        <div class="c">掃我加 LINE ·聊聊你身邊需要的人</div>
+      </div>
+      <div class="foot">© 石庭安 臨床心理師 · 神經心理治療</div>
+    </div>
+  </div>
+</body>
+</html>
